@@ -9,28 +9,32 @@ h1{font-size:34px;line-height:1.2;margin:0 0 8px}h2{font-size:22px;margin:34px 0
 p,li{margin:8px 0}.muted{color:var(--muted)}a{color:var(--accent)}
 </style></head><body><main>
 <h1>Privacy policy</h1>
-<p class="muted">Last updated: 26 October 2026</p>
+<p class="muted">Last updated: 29 October 2026</p>
 <p>Okulo is an app that answers questions about colours in a photo. This page explains what happens to your data. Short version: no account, no ads, no tracking, and we do not keep your photos.</p>
 <h2>Who we are</h2>
 <p>Okulo is made by Baptiste Corman and Nirvaan Thakur. Contact: <a href="mailto:baptiste.corman08@gmail.com">baptiste.corman08@gmail.com</a>.</p>
 <h2>What stays on your phone</h2>
 <ul>
-<li>Your colour test result (type and severity), your answer language and your settings.</li>
+<li>Your colour test result (type and strength), the full result of the Your eyes test (how you answered each step and the screen settings you ticked), your answer language and your settings. Your eyes has a "Delete my data" button.</li>
+<li>My things: the clothes, objects and device lights you save, their colours, the names you give them and a small photo of each. They are saved in Okulo's own folder on your phone, never in your photo library, and nothing is sent unless you ask Claude about one saved thing. "Delete everything" in My things removes them, and so does deleting the app.</li>
+<li>Fix a picture: the picture you choose is processed on your phone and nothing is uploaded. A copy goes to your photos only if you choose Save Image.</li>
 <li>Naming a colour by tapping the photo: this is done on your phone and nothing is sent.</li>
-<li>Live camera modes (when available in your version): the camera picture is analysed on your phone, frame by frame, and nothing is sent or saved unless you freeze a frame and ask a question about it.</li>
+<li>Test builds of Okulo may include live camera modes. They analyse the camera picture on your phone, frame by frame, and send nothing unless you freeze a frame and ask Claude a question about it.</li>
 </ul>
 <h2>What is sent when you ask a question</h2>
 <p>Only after you allow it in the app, and only when you ask a question, Okulo sends:</p>
 <ul>
 <li>the photo you are asking about (resized), and your question;</li>
-<li>your colour test result and your answer language, so the answer fits you.</li>
+<li>your colour test result (its type and strength) and your answer language, so the answer fits you.</li>
 </ul>
 <p>Your colour test result describes your eyesight, so it is only sent with your explicit permission, together with the question it helps to answer.</p>
-<p>This goes to Okulo's server (hosted by Supabase), which forwards it to <strong>Claude, an AI service made by Anthropic</strong>, to write the answer, then sends the answer back to your phone. Okulo's server does not store your photos or your questions. Our hosting provider keeps short technical logs (such as the time of a request and error codes) to keep the service running.</p>
+<p>This goes to Okulo's server (hosted by Supabase in Paris), which forwards it to <strong>Claude, an AI service made by Anthropic</strong>, to write the answer, then sends the answer back to your phone. Okulo's server does not store your photos or your questions. Our hosting provider keeps short technical logs (such as the time of a request and error codes) to keep the service running.</p>
 <p>Anthropic processes the photo and question to produce the answer, under its own terms and privacy policy: <a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>.</p>
 <p>You can withdraw your permission at any time in the app (Profile, "Send photos to Claude for answers"). Okulo then only names colours on your phone.</p>
 <h2>Asking by voice</h2>
-<p>If you tap the microphone, Okulo uses Apple's speech recognition on your iPhone to turn what you say into text. Depending on your iPhone and language, Apple may process the audio on its servers, under Apple's privacy policy: <a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a>. Okulo does not record, keep or send your voice: only the text of your question is used, as described above. Okulo listens only while the microphone button is on.</p>
+<p>If you tap the microphone, Okulo uses Apple's speech recognition on your iPhone to turn what you say into text. Depending on your iPhone and language, Apple may process the audio on its servers, under Apple's privacy policy: <a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a>. Okulo does not record, keep or send your voice: only the text of your question is used, as described above. The same applies when you dictate the name of a saved thing. Okulo listens only while the microphone button is on.</p>
+<h2>App updates</h2>
+<p>Okulo can receive small updates without a new App Store version. To do that the app asks an update service run by Expo whether a new version exists, and sends the app version, the phone's platform, which update the app already has and a random identifier created for this installation. It contains no photo, no question and no test result.</p>
 <h2>What we do not do</h2>
 <ul>
 <li>No account, no name, no email address collected in the app.</li>
